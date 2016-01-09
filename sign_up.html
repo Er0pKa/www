@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Сайтек</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        
+        <h1>Регистрация</h1>
+        <h2>Содержание</h2>
+        
+        <ul class="menu">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="articles.html">Статьи</a></li>
+            <li><a href="directory.html">Каталог</a></li>
+            <li><a href="gallery.html">Галерея изображений</a></li>
+            <li><a href="sign_up.html">Регистрация</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+            <li><a href="tables.html.html">Таблицы</a></li>
+        </ul>
+          
+        <form action="file.php"
+              method="post"
+              enctype="multipart/form-data">
+            <table>
+                <tr>
+                    <td colspan="2"><input class="first-capital-letter" type="text" placeholder="Фамилия"/></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input class="first-capital-letter" type="text" placeholder="Имя"/></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input class="first-capital-letter" type="text" placeholder="Отчество"/></td>
+                </tr>
+                <tr>
+                    <td colspan="2">Фотография: <input type=file /></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="email" placeholder="Адрес электронной почты"/></td>
+                </tr>
+                <tr>
+                    <td colspan="2">Пароль: <input type="password" /></td>
+                </tr>
+                <tr>
+                    <td colspan="2">Адрес сайта: <input type="text" value="http://" /></td>
+                </tr>
+                <tr>
+                    <td colspan="2">Пол: <label class="dotted-border"> <input type="radio" name="sex" value="male" class="dotted-border"> м  </label>
+                        <label class="dotted-border"> <input class="dotted-border" type="radio" name="sex" value="female"> ж </label></td>
+                </tr>
+                <tr>
+                    <td colspan="2">Дата рождения: <input type="date" /></td>
+                </tr>
+                <tr>
+                    <td colspan="2">Интересы:   <br>
+                        <label class="dotted-border"> <input type="checkbox" name="hobby" value="cancer aid"/> Исследования в сфере лечения рака </label><br>
+                        <label class="dotted-border"> <input type="checkbox" name="hobby" value="videogames" class="dotted-border"/> Видеоигры </label><br>
+                        <label class="dotted-border"> <input type="checkbox" name="hobby" value="programming" class="dotted-border"/> Программирование </label><br>
+                        <label class="dotted-border"> <input type="checkbox" name="hobby" value="bayan play" class="dotted-border"/> Игра на баяне </label><br></td>
+                </tr>
+                <tr>
+                    <td colspan="2">О себе:<br> <textarea cols=30 rows=5 name="О себе" title="123"> </textarea></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="зарегистрироваться" /></td>
+                    <td><input type="reset" value="очистить форму" /></td>
+                </tr>
+            </table>
+
+
+            <br>
+
+            <br>
+
+            <br>
+
+            <br>
+
+
+
+        </form>
+        
+        <footer>
+            &copy; Полевой Егор
+        </footer>
+      
+    </body>
+</html>
